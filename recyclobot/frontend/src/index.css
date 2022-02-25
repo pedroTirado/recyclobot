@@ -1,0 +1,100 @@
+body {
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Oxanium', cursive;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 75px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxanium", cursive;
+  font-size: 40px;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+  background-color: #9cd5a5;
+}
+
+.camera {
+  position: relative;
+}
+
+.result {
+  position: flex;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  transition: 0.4s;
+}
+
+.result.hasPhoto {
+  left: 0;
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  position: flex;
+  bottom: 15px;
+  left: 40%;
+  width: 100%;
+
+  appearance: none;
+  border: none;
+  outline: thick double green;
+
+  padding: 8px 15px;
+  background-image: linear-gradient(to right, #9cd5a5 50%, #57a75c 50%);
+  background-position: 0%;
+  background-size: 200%;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-position: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&family=Pacifico&display=swap');
