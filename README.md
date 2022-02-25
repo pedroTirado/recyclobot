@@ -1,5 +1,4 @@
-# 11278group30
-
+#Recyclobot
 Repository for Intro to Software Engineering (CEN3031)
 
 - Member1: Pedro Tirado
